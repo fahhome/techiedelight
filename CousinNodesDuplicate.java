@@ -3,6 +3,7 @@ package techiedelight;
 import techiedelight.Node;
 
 // Two nodes can have same values
+// Check if two nodes are cousin or not
 public class CousinNodesDuplicate {
     public static void filldatas(Node root, Node x, Node y, Node[] xpar, Node[] ypar, int[] xlev, int[] ylev, Node par,
             int lev) {
